@@ -24,7 +24,7 @@ HINSTANCE hInst;
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
 // Pointer to WebView window
-static wil::com_ptr<IWebView2WebView> webviewWindow;
+static wil::com_ptr<ICoreWebView2CoreWebView2> webviewWindow;
 
 int CALLBACK WinMain(
 	_In_ HINSTANCE hInstance,
